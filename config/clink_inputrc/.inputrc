@@ -1,0 +1,12 @@
+$if clink           # begin clink-only section
+
+# The following key bindings are for emacs mode.
+set keymap emacs
+
+# Completion key bindings.
+"\t":               old-menu-complete               # Tab
+"\e[Z":             old-menu-complete-backward      # Shift+Tab
+"\e[27;5;9~":       clink-popup-complete            # Ctrl+Tab (ConEmu needs additional configuration to allow Ctrl+Tab)
+"\x1b[27;5;32~":    complete                        # Ctrl+Space
+
+$endif

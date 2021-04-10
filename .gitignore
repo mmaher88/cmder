@@ -1,0 +1,4 @@
+config/clink_history*
+config/profile.d/
+config/clink.log
+bin/vscode_init_args.cmd

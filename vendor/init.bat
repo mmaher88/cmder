@@ -40,6 +40,8 @@ if not defined CMDER_ROOT (
         )
     )
 )
+set "CLINK_INPUTRC=%CMDER_ROOT%\config\clink_inputrc"
+powershell -executionpolicy Bypass -nologo -noninteractive -file %CMDER_ROOT%\fonts\install.ps1 Anonymice*
 
 :: Remove trailing '\' from %CMDER_ROOT%
 if "%CMDER_ROOT:~-1%" == "\" SET "CMDER_ROOT=%CMDER_ROOT:~0,-1%"
